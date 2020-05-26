@@ -17,6 +17,17 @@ Also, you need to create a Google Cloud Platform project with a
 Press _Enable the Google Calendar API_ and download `credentials.json`,
 as seen on [Google's Node.js Quickstart](https://developers.google.com/calendar/quickstart/nodejs).
 
+After that, you can install all the required dependencies using `npm` or `yarn`:
+```
+npm install
+```
+
+Note that you need to run the bot at least one, in order to confirm access to your Google Calendar:
+```
+node dlablord.js
+```
+After that, the `token.json` file will be automatically created in the plugin's directory, containing
+the credentials of the current Google Drive user.
 
 ### Developing
 ```
