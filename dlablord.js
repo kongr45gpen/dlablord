@@ -150,7 +150,11 @@ function toTitleName(str) {
     lowercase.includes("meeting") ||
     lowercase.includes("force") ||
     lowercase.includes("together") ||
-    lowercase.includes("room")
+    lowercase.includes("room") ||
+    lowercase.includes("seminar") ||
+    lowercase.includes("webinar") ||
+    lowercase.includes("training") ||
+    lowercase.includes("session")
   ) {
     return str
   } else {
