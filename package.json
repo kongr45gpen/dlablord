@@ -9,11 +9,9 @@
   "author": "",
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "discord": "^0.8.2",
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
     "googleapis": "^39.2.0",
-    "rake-js": "^0.1.1",
     "rapid-automated-keyword-extraction": "^1.0.1"
   }
 }
